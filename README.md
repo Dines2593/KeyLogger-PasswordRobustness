@@ -1,26 +1,22 @@
-# 🔐 Keylogger Password Robustness Lab
+🔐 Keylogger Password Robustness Lab
+1️⃣ Contexte & objectif
 
-## 1️⃣ Contexte & objectif
-
-Ce projet a été réalisé dans un cadre **pédagogique** sur deux machines virtuelles Kali Linux isolées (VirtualBox).
+Ce projet a été réalisé dans un cadre pédagogique sur deux machines virtuelles Kali Linux isolées (VirtualBox).
 
 🎯 Objectifs :
 
-- comprendre comment un keylogger peut exfiltrer des données ;
-- voir comment les logs sont stockés et visualisés ;
-- piloter un agent à distance (commande **start/stop capture**) ;
-- gérer la **résilience** en cas de panne de l’attaquant (tampon local).
+    comprendre comment un keylogger peut exfiltrer des données ;
+    voir comment les logs sont stockés et visualisés ;
+    piloter un agent à distance (commande start/stop capture) ;
+    gérer la résilience en cas de panne de l’attaquant (tampon local).
 
-> ⚠️ **Usage strictement pédagogique**  
-> Ne pas utiliser ce code en dehors d’un environnement de test contrôlé et autorisé.
+    ⚠️ Usage strictement pédagogique
+    Ne pas utiliser ce code en dehors d’un environnement de test contrôlé et autorisé.
 
----
+2️⃣ Architecture générale
 
-## 2️⃣ Architecture générale
+Le lab repose sur deux VMs en réseau interne :
 
-Le lab repose sur **deux VMs** en réseau interne :
-
-```text
 Victime (VM1)                         Attaquant + Contrôleur (VM2)
 -------------------------------       ---------------------------------------
 Flask : app_victim.py                 Flask : server_attacker.py
@@ -172,3 +168,7 @@ export CSV / dashboard plus avancé.
 9️⃣ Avertissement légal
 Ce projet est destiné à l’enseignement et à l’expérimentation encadrée.
 Toute utilisation sur des systèmes réels sans accord explicite est susceptible d’être illégale et contraire à l’éthique de la cybersécurité.
+
+
+A brief description of what this project does and who it's for
+
