@@ -170,5 +170,3 @@ Ce projet est destiné à l’enseignement et à l’expérimentation encadrée.
 Toute utilisation sur des systèmes réels sans accord explicite est susceptible d’être illégale et contraire à l’éthique de la cybersécurité.
 
 
-A brief description of what this project does and who it's for
-
