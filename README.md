@@ -3,7 +3,7 @@
 
 1️⃣ Contexte & objectif
 
-Ce projet a été réalisé dans un cadre pédagogique sur deux machines virtuelles Kali Linux isolées (VirtualBox).
+Ce projet a été réalisé dans un cadre pédagogique sur deux machines virtuelles Kali Linux isolées (VMWare).
 
 🎯 Objectifs :
 
